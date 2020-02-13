@@ -1,5 +1,9 @@
+#include "Arduino.h"
+#include "flamme.h"
+
 void setup() {
   // put your setup code here, to run once:
+  flamme_init();
 
 }
 
